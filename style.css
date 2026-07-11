@@ -182,3 +182,144 @@
   font-size: 16px;
   color: #575757;
 }
+
+.price {
+  padding: 100px 90px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.price h2 {
+  font-size: 48px;
+  color: #0d1b2a;
+  margin-bottom: 16px;
+}
+
+.price p {
+  font-size: 18px;
+  color: #888888;
+  margin-bottom: 60px;
+}
+
+.cards {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  gap: 32px;
+}
+
+.card {
+  flex: 1;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  padding: 36px 30px;
+  text-align: left;
+  box-shadow: none;
+}
+
+.card .title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #888888;
+  margin-bottom: 18px;
+}
+
+.card h2 {
+  font-size: 44px;
+  color: #0d1b2a;
+  margin-bottom: 8px;
+}
+
+.card .subtitle {
+  font-size: 16px;
+  color: #888888;
+  margin-bottom: 28px;
+}
+
+.card hr {
+  border: none;
+  height: 1px;
+  background-color: #e5e7eb;
+  margin-bottom: 28px;
+}
+
+.card ul {
+  list-style: none;
+  margin-bottom: 36px;
+}
+
+.card li {
+  font-size: 16px;
+  color: #3f3f46;
+  margin-bottom: 14px;
+  line-height: 1.4;
+}
+
+.card li::before {
+  content: "•";
+  color: #2563eb;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.card .btn {
+  display: block;
+  text-align: center;
+  background-color: #ffffff;
+  color: #2563eb;
+  border: 1px solid #2563eb;
+  padding: 16px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.card .btn:hover {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.btn-special {
+  display: block;
+  text-align: center;
+  background-color: #2563eb;
+  color: #ffffff;
+  padding: 16px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.btn-special:hover {
+  background-color: #1d4ed8;
+}
+
+.special-card {
+  background-color: #0d1b2a;
+  transform: translateY(-20px);
+}
+
+.special-card .title {
+  color: #93c5fd;
+}
+
+.special-card h2 {
+  color: #ffffff;
+}
+
+.special-card .subtitle {
+  color: #888888;
+}
+
+.special-card li {
+  color: #d1d5db;
+}
+
+.special-card li::before {
+  color: #60a5fa;
+}
+
+.special-card hr {
+  background-color: #243447;
+}
+
