@@ -16,7 +16,8 @@
 .logo img {
   width: 120px;
   height: auto;
-  display: center;
+  display: block;
+  margin: 0 auto;
 }
 
 .navbar {
@@ -121,4 +122,63 @@
 
 .hero-btn:hover {
   background-color: #2563EB;
+}
+
+.speakers {
+  padding: 100px 90px;
+  background-color: #ffffff;
+}
+
+.speakers h2 {
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  color: #000102;
+  margin-bottom: 60px;
+}
+
+.speaker-cards {
+  max-width: 1321px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+
+.speaker-card {
+  background-color: #f8fafc;
+  border-radius: 18px;
+  overflow: hidden;
+  padding-bottom: 28px;
+}
+
+.speaker-card img {
+  width: 100%;
+  height: 324px;
+  object-fit: cover;
+  display: block;
+}
+
+.speaker-card h4 {
+  display: inline-block;
+  margin: 24px 24px 16px;
+  padding: 8px 14px;
+  background-color: #dbeafe;
+  color: #2563ebFF;;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.speaker-card h3 {
+  margin: 0 24px 8px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #0d1b2a;
+}
+
+.speaker-card p {
+  margin: 0 24px;
+  font-size: 16px;
+  color: #575757;
 }
