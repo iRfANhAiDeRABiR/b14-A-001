@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -133,383 +136,400 @@
 
     <section class="quest-section" id="tracks">
 
-    <div class="quest-heading">
-        <p class="quest-small-title">INTERACTIVE EXPERIENCE</p>
-        <h2>Build Your DevConf Quest</h2>
-        <p class="quest-intro">
-            Choose a technology track and reveal a personalized conference route
-            designed around the skills you want to build.
-        </p>
-    </div>
+        <div class="quest-heading">
+            <p class="quest-small-title">INTERACTIVE EXPERIENCE</p>
+            <h2>Build Your DevConf Quest</h2>
+            <p class="quest-intro">
+                Choose a technology track and reveal a personalized conference route
+                designed around the skills you want to build.
+            </p>
+        </div>
 
-    <div class="quest-box">
+        <div class="quest-box">
 
-        <!-- Hidden radio buttons control the interaction -->
-        <input type="radio" name="devconf-track" id="track-ai" checked>
-        <input type="radio" name="devconf-track" id="track-cloud">
-        <input type="radio" name="devconf-track" id="track-frontend">
-        <input type="radio" name="devconf-track" id="track-security">
+            <!-- Hidden radio buttons control the interaction -->
+            <input type="radio" name="devconf-track" id="track-ai" checked>
+            <input type="radio" name="devconf-track" id="track-cloud">
+            <input type="radio" name="devconf-track" id="track-frontend">
+            <input type="radio" name="devconf-track" id="track-security">
 
-        <!-- Clickable track buttons -->
-        <div class="track-buttons">
+            <!-- Clickable track buttons -->
+            <div class="track-buttons">
 
-            <label for="track-ai" class="track-button track-ai-button">
-                <span class="track-icon">AI</span>
-                <span>AI / ML</span>
-            </label>
+                <label for="track-ai" class="track-button track-ai-button">
+                    <span class="track-icon">AI</span>
+                    <span>AI / ML</span>
+                </label>
 
-            <label for="track-cloud" class="track-button track-cloud-button">
-                <span class="track-icon">CL</span>
-                <span>Cloud</span>
-            </label>
+                <label for="track-cloud" class="track-button track-cloud-button">
+                    <span class="track-icon">CL</span>
+                    <span>Cloud</span>
+                </label>
 
-            <label for="track-frontend" class="track-button track-frontend-button">
-                <span class="track-icon">&lt;/&gt;</span>
-                <span>Frontend</span>
-            </label>
+                <label for="track-frontend" class="track-button track-frontend-button">
+                    <span class="track-icon">&lt;/&gt;</span>
+                    <span>Frontend</span>
+                </label>
 
-            <label for="track-security" class="track-button track-security-button">
-                <span class="track-icon">SC</span>
-                <span>Security</span>
-            </label>
+                <label for="track-security" class="track-button track-security-button">
+                    <span class="track-icon">SC</span>
+                    <span>Security</span>
+                </label>
+
+            </div>
+
+            <!-- AI/ML panel -->
+            <div class="quest-panel panel-ai">
+
+                <div class="quest-content">
+
+                    <div class="quest-status">
+                        <span class="live-dot"></span>
+                        AI / ML QUEST SELECTED
+                    </div>
+
+                    <h3>From Models to Meaningful Products</h3>
+
+                    <p class="quest-description">
+                        Explore how modern AI systems are trained, evaluated, and turned
+                        into useful products for real users.
+                    </p>
+
+                    <div class="skill-tags">
+                        <span>Foundation Models</span>
+                        <span>AI Agents</span>
+                        <span>Responsible AI</span>
+                    </div>
+
+                    <div class="quest-route">
+
+                        <div class="route-item">
+                            <div class="route-number">01</div>
+                            <div>
+                                <p class="route-time">9:30 AM</p>
+                                <h4>Building Reliable AI Agents</h4>
+                                <p>Main Stage · 45 minutes</p>
+                            </div>
+                        </div>
+
+                        <div class="route-item">
+                            <div class="route-number">02</div>
+                            <div>
+                                <p class="route-time">1:00 PM</p>
+                                <h4>Model Evaluation Workshop</h4>
+                                <p>Lab Room A · 90 minutes</p>
+                            </div>
+                        </div>
+
+                        <div class="route-item">
+                            <div class="route-number">03</div>
+                            <div>
+                                <p class="route-time">4:30 PM</p>
+                                <h4>AI Builders Networking Circle</h4>
+                                <p>Community Lounge · 60 minutes</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="quest-pass">
+
+                    <p class="pass-label">YOUR QUEST PASS</p>
+
+                    <div class="pass-symbol">AI</div>
+
+                    <h3>AI Explorer</h3>
+
+                    <p>
+                        Complete all three activities to unlock your digital AI Explorer badge.
+                    </p>
+
+                    <div class="progress-text">
+                        <span>Quest progress</span>
+                        <span>0 / 3</span>
+                    </div>
+
+                    <div class="progress-bar">
+                        <div class="progress-fill progress-ai"></div>
+                    </div>
+
+                    <a href="#register" class="quest-btn">Choose This Quest</a>
+
+                </div>
+
+            </div>
+
+            <!-- Cloud panel -->
+            <div class="quest-panel panel-cloud">
+
+                <div class="quest-content">
+
+                    <div class="quest-status">
+                        <span class="live-dot"></span>
+                        CLOUD QUEST SELECTED
+                    </div>
+
+                    <h3>Design Systems That Never Sleep</h3>
+
+                    <p class="quest-description">
+                        Learn how engineers build scalable infrastructure, automate
+                        deployment, and keep modern platforms reliable.
+                    </p>
+
+                    <div class="skill-tags">
+                        <span>Kubernetes</span>
+                        <span>DevOps</span>
+                        <span>Observability</span>
+                    </div>
+
+                    <div class="quest-route">
+
+                        <div class="route-item">
+                            <div class="route-number">01</div>
+                            <div>
+                                <p class="route-time">10:00 AM</p>
+                                <h4>Cloud Architecture at Scale</h4>
+                                <p>Main Stage · 45 minutes</p>
+                            </div>
+                        </div>
+
+                        <div class="route-item">
+                            <div class="route-number">02</div>
+                            <div>
+                                <p class="route-time">2:00 PM</p>
+                                <h4>Deploy with Kubernetes</h4>
+                                <p>Cloud Lab · 90 minutes</p>
+                            </div>
+                        </div>
+
+                        <div class="route-item">
+                            <div class="route-number">03</div>
+                            <div>
+                                <p class="route-time">5:00 PM</p>
+                                <h4>DevOps Reliability Challenge</h4>
+                                <p>Challenge Zone · 60 minutes</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="quest-pass">
+
+                    <p class="pass-label">YOUR QUEST PASS</p>
+
+                    <div class="pass-symbol">CL</div>
+
+                    <h3>Cloud Navigator</h3>
+
+                    <p>
+                        Complete your route to unlock the Cloud Navigator digital badge.
+                    </p>
+
+                    <div class="progress-text">
+                        <span>Quest progress</span>
+                        <span>0 / 3</span>
+                    </div>
+
+                    <div class="progress-bar">
+                        <div class="progress-fill progress-cloud"></div>
+                    </div>
+
+                    <a href="#register" class="quest-btn">Choose This Quest</a>
+
+                </div>
+
+            </div>
+
+            <!-- Frontend panel -->
+            <div class="quest-panel panel-frontend">
+
+                <div class="quest-content">
+
+                    <div class="quest-status">
+                        <span class="live-dot"></span>
+                        FRONTEND QUEST SELECTED
+                    </div>
+
+                    <h3>Create Experiences People Remember</h3>
+
+                    <p class="quest-description">
+                        Discover modern interface architecture, accessibility practices,
+                        performance techniques, and creative web interactions.
+                    </p>
+
+                    <div class="skill-tags">
+                        <span>Web Performance</span>
+                        <span>Accessibility</span>
+                        <span>Design Systems</span>
+                    </div>
+
+                    <div class="quest-route">
+
+                        <div class="route-item">
+                            <div class="route-number">01</div>
+                            <div>
+                                <p class="route-time">9:45 AM</p>
+                                <h4>The Future of Web Interfaces</h4>
+                                <p>Frontend Stage · 45 minutes</p>
+                            </div>
+                        </div>
+
+                        <div class="route-item">
+                            <div class="route-number">02</div>
+                            <div>
+                                <p class="route-time">1:30 PM</p>
+                                <h4>Accessible UI Workshop</h4>
+                                <p>Design Lab · 90 minutes</p>
+                            </div>
+                        </div>
+
+                        <div class="route-item">
+                            <div class="route-number">03</div>
+                            <div>
+                                <p class="route-time">4:15 PM</p>
+                                <h4>Interface Speed Challenge</h4>
+                                <p>Challenge Zone · 60 minutes</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="quest-pass">
+
+                    <p class="pass-label">YOUR QUEST PASS</p>
+
+                    <div class="pass-symbol">&lt;/&gt;</div>
+
+                    <h3>Interface Creator</h3>
+
+                    <p>
+                        Finish the route and unlock your Interface Creator badge.
+                    </p>
+
+                    <div class="progress-text">
+                        <span>Quest progress</span>
+                        <span>0 / 3</span>
+                    </div>
+
+                    <div class="progress-bar">
+                        <div class="progress-fill progress-frontend"></div>
+                    </div>
+
+                    <a href="#register" class="quest-btn">Choose This Quest</a>
+
+                </div>
+
+            </div>
+
+            <!-- Security panel -->
+            <div class="quest-panel panel-security">
+
+                <div class="quest-content">
+
+                    <div class="quest-status">
+                        <span class="live-dot"></span>
+                        SECURITY QUEST SELECTED
+                    </div>
+
+                    <h3>Think Like an Attacker. Build Like a Defender.</h3>
+
+                    <p class="quest-description">
+                        Explore application security, threat detection, ethical hacking,
+                        and practical methods for protecting digital systems.
+                    </p>
+
+                    <div class="skill-tags">
+                        <span>Ethical Hacking</span>
+                        <span>Zero Trust</span>
+                        <span>App Security</span>
+                    </div>
+
+                    <div class="quest-route">
+
+                        <div class="route-item">
+                            <div class="route-number">01</div>
+                            <div>
+                                <p class="route-time">10:15 AM</p>
+                                <h4>Inside a Modern Cyberattack</h4>
+                                <p>Security Stage · 45 minutes</p>
+                            </div>
+                        </div>
+
+                        <div class="route-item">
+                            <div class="route-number">02</div>
+                            <div>
+                                <p class="route-time">2:15 PM</p>
+                                <h4>Find the Vulnerability</h4>
+                                <p>Security Lab · 90 minutes</p>
+                            </div>
+                        </div>
+
+                        <div class="route-item">
+                            <div class="route-number">03</div>
+                            <div>
+                                <p class="route-time">5:15 PM</p>
+                                <h4>Capture the Flag Challenge</h4>
+                                <p>Challenge Zone · 60 minutes</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="quest-pass">
+
+                    <p class="pass-label">YOUR QUEST PASS</p>
+
+                    <div class="pass-symbol">SC</div>
+
+                    <h3>Cyber Defender</h3>
+
+                    <p>
+                        Complete all activities and unlock your Cyber Defender badge.
+                    </p>
+
+                    <div class="progress-text">
+                        <span>Quest progress</span>
+                        <span>0 / 3</span>
+                    </div>
+
+                    <div class="progress-bar">
+                        <div class="progress-fill progress-security"></div>
+                    </div>
+
+                    <a href="#register" class="quest-btn">Choose This Quest</a>
+
+                </div>
+
+            </div>
 
         </div>
 
-        <!-- AI/ML panel -->
-        <div class="quest-panel panel-ai">
+    </section>
 
-            <div class="quest-content">
-
-                <div class="quest-status">
-                    <span class="live-dot"></span>
-                    AI / ML QUEST SELECTED
-                </div>
-
-                <h3>From Models to Meaningful Products</h3>
-
-                <p class="quest-description">
-                    Explore how modern AI systems are trained, evaluated, and turned
-                    into useful products for real users.
-                </p>
-
-                <div class="skill-tags">
-                    <span>Foundation Models</span>
-                    <span>AI Agents</span>
-                    <span>Responsible AI</span>
-                </div>
-
-                <div class="quest-route">
-
-                    <div class="route-item">
-                        <div class="route-number">01</div>
-                        <div>
-                            <p class="route-time">9:30 AM</p>
-                            <h4>Building Reliable AI Agents</h4>
-                            <p>Main Stage · 45 minutes</p>
-                        </div>
-                    </div>
-
-                    <div class="route-item">
-                        <div class="route-number">02</div>
-                        <div>
-                            <p class="route-time">1:00 PM</p>
-                            <h4>Model Evaluation Workshop</h4>
-                            <p>Lab Room A · 90 minutes</p>
-                        </div>
-                    </div>
-
-                    <div class="route-item">
-                        <div class="route-number">03</div>
-                        <div>
-                            <p class="route-time">4:30 PM</p>
-                            <h4>AI Builders Networking Circle</h4>
-                            <p>Community Lounge · 60 minutes</p>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="quest-pass">
-
-                <p class="pass-label">YOUR QUEST PASS</p>
-
-                <div class="pass-symbol">AI</div>
-
-                <h3>AI Explorer</h3>
-
-                <p>
-                    Complete all three activities to unlock your digital AI Explorer badge.
-                </p>
-
-                <div class="progress-text">
-                    <span>Quest progress</span>
-                    <span>0 / 3</span>
-                </div>
-
-                <div class="progress-bar">
-                    <div class="progress-fill progress-ai"></div>
-                </div>
-
-                <a href="#register" class="quest-btn">Choose This Quest</a>
-
-            </div>
-
+    <footer>
+        <div class="left">
+            <p>&copy;2026 DevConf. All rights reserved.</p>
         </div>
-
-        <!-- Cloud panel -->
-        <div class="quest-panel panel-cloud">
-
-            <div class="quest-content">
-
-                <div class="quest-status">
-                    <span class="live-dot"></span>
-                    CLOUD QUEST SELECTED
-                </div>
-
-                <h3>Design Systems That Never Sleep</h3>
-
-                <p class="quest-description">
-                    Learn how engineers build scalable infrastructure, automate
-                    deployment, and keep modern platforms reliable.
-                </p>
-
-                <div class="skill-tags">
-                    <span>Kubernetes</span>
-                    <span>DevOps</span>
-                    <span>Observability</span>
-                </div>
-
-                <div class="quest-route">
-
-                    <div class="route-item">
-                        <div class="route-number">01</div>
-                        <div>
-                            <p class="route-time">10:00 AM</p>
-                            <h4>Cloud Architecture at Scale</h4>
-                            <p>Main Stage · 45 minutes</p>
-                        </div>
-                    </div>
-
-                    <div class="route-item">
-                        <div class="route-number">02</div>
-                        <div>
-                            <p class="route-time">2:00 PM</p>
-                            <h4>Deploy with Kubernetes</h4>
-                            <p>Cloud Lab · 90 minutes</p>
-                        </div>
-                    </div>
-
-                    <div class="route-item">
-                        <div class="route-number">03</div>
-                        <div>
-                            <p class="route-time">5:00 PM</p>
-                            <h4>DevOps Reliability Challenge</h4>
-                            <p>Challenge Zone · 60 minutes</p>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="quest-pass">
-
-                <p class="pass-label">YOUR QUEST PASS</p>
-
-                <div class="pass-symbol">CL</div>
-
-                <h3>Cloud Navigator</h3>
-
-                <p>
-                    Complete your route to unlock the Cloud Navigator digital badge.
-                </p>
-
-                <div class="progress-text">
-                    <span>Quest progress</span>
-                    <span>0 / 3</span>
-                </div>
-
-                <div class="progress-bar">
-                    <div class="progress-fill progress-cloud"></div>
-                </div>
-
-                <a href="#register" class="quest-btn">Choose This Quest</a>
-
-            </div>
-
+        <div class="social-icons">
+            <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
         </div>
-
-        <!-- Frontend panel -->
-        <div class="quest-panel panel-frontend">
-
-            <div class="quest-content">
-
-                <div class="quest-status">
-                    <span class="live-dot"></span>
-                    FRONTEND QUEST SELECTED
-                </div>
-
-                <h3>Create Experiences People Remember</h3>
-
-                <p class="quest-description">
-                    Discover modern interface architecture, accessibility practices,
-                    performance techniques, and creative web interactions.
-                </p>
-
-                <div class="skill-tags">
-                    <span>Web Performance</span>
-                    <span>Accessibility</span>
-                    <span>Design Systems</span>
-                </div>
-
-                <div class="quest-route">
-
-                    <div class="route-item">
-                        <div class="route-number">01</div>
-                        <div>
-                            <p class="route-time">9:45 AM</p>
-                            <h4>The Future of Web Interfaces</h4>
-                            <p>Frontend Stage · 45 minutes</p>
-                        </div>
-                    </div>
-
-                    <div class="route-item">
-                        <div class="route-number">02</div>
-                        <div>
-                            <p class="route-time">1:30 PM</p>
-                            <h4>Accessible UI Workshop</h4>
-                            <p>Design Lab · 90 minutes</p>
-                        </div>
-                    </div>
-
-                    <div class="route-item">
-                        <div class="route-number">03</div>
-                        <div>
-                            <p class="route-time">4:15 PM</p>
-                            <h4>Interface Speed Challenge</h4>
-                            <p>Challenge Zone · 60 minutes</p>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="quest-pass">
-
-                <p class="pass-label">YOUR QUEST PASS</p>
-
-                <div class="pass-symbol">&lt;/&gt;</div>
-
-                <h3>Interface Creator</h3>
-
-                <p>
-                    Finish the route and unlock your Interface Creator badge.
-                </p>
-
-                <div class="progress-text">
-                    <span>Quest progress</span>
-                    <span>0 / 3</span>
-                </div>
-
-                <div class="progress-bar">
-                    <div class="progress-fill progress-frontend"></div>
-                </div>
-
-                <a href="#register" class="quest-btn">Choose This Quest</a>
-
-            </div>
-
+        <div class="right">
+            <ul>
+                <li><a href="#privacy">Privacy Policy</a></li>
+                <li><a href="#terms">Terms of Service</a></li>
+            </ul>
         </div>
-
-        <!-- Security panel -->
-        <div class="quest-panel panel-security">
-
-            <div class="quest-content">
-
-                <div class="quest-status">
-                    <span class="live-dot"></span>
-                    SECURITY QUEST SELECTED
-                </div>
-
-                <h3>Think Like an Attacker. Build Like a Defender.</h3>
-
-                <p class="quest-description">
-                    Explore application security, threat detection, ethical hacking,
-                    and practical methods for protecting digital systems.
-                </p>
-
-                <div class="skill-tags">
-                    <span>Ethical Hacking</span>
-                    <span>Zero Trust</span>
-                    <span>App Security</span>
-                </div>
-
-                <div class="quest-route">
-
-                    <div class="route-item">
-                        <div class="route-number">01</div>
-                        <div>
-                            <p class="route-time">10:15 AM</p>
-                            <h4>Inside a Modern Cyberattack</h4>
-                            <p>Security Stage · 45 minutes</p>
-                        </div>
-                    </div>
-
-                    <div class="route-item">
-                        <div class="route-number">02</div>
-                        <div>
-                            <p class="route-time">2:15 PM</p>
-                            <h4>Find the Vulnerability</h4>
-                            <p>Security Lab · 90 minutes</p>
-                        </div>
-                    </div>
-
-                    <div class="route-item">
-                        <div class="route-number">03</div>
-                        <div>
-                            <p class="route-time">5:15 PM</p>
-                            <h4>Capture the Flag Challenge</h4>
-                            <p>Challenge Zone · 60 minutes</p>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="quest-pass">
-
-                <p class="pass-label">YOUR QUEST PASS</p>
-
-                <div class="pass-symbol">SC</div>
-
-                <h3>Cyber Defender</h3>
-
-                <p>
-                    Complete all activities and unlock your Cyber Defender badge.
-                </p>
-
-                <div class="progress-text">
-                    <span>Quest progress</span>
-                    <span>0 / 3</span>
-                </div>
-
-                <div class="progress-bar">
-                    <div class="progress-fill progress-security"></div>
-                </div>
-
-                <a href="#register" class="quest-btn">Choose This Quest</a>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
+    </footer>
 
 
 </body>

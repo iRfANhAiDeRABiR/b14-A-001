@@ -6,10 +6,8 @@ When someone clicks a track, can the section show a different conference route f
 
 Can each track include three activities, session times, skill tags, a short description, and a special badge card?
 
-Can you make the design look modern and professional using dark navy, blue, white, and light gray so it matches the rest of my DevConf website?
+And make the design look modern and professional using dark navy, blue, white, and light gray so it matches the rest of my DevConf website, also add simple hover effects, smooth transitions, an animated status dot, progress bars, rounded cards, and a subtle technology-style background.
 
-Can you also add simple hover effects, smooth transitions, an animated status dot, progress bars, rounded cards, and a subtle technology-style background?
+keep the HTML and CSS separate, use beginner-friendly class names, and make the code easy for me to copy and paste into my existing project.
 
-Please keep the HTML and CSS separate, use beginner-friendly class names, and make the code easy for me to copy and paste into my existing project.
-
-Please do not use JavaScript, CSS frameworks, external libraries, or Lorem Ipsum text.
+Do not use JavaScript, CSS frameworks, external libraries, or Lorem Ipsum text.

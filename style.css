@@ -769,3 +769,33 @@
   color: #2563eb;
   transform: translateY(-2px);
 }
+
+footer {
+  padding: 90px;
+  background-color: #0d1b2a;
+  color: #82828e;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.right ul{
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+.right a {
+  text-decoration: none;
+  color: #82828e;
+}
+
+.social-icons {
+  display: flex;
+  gap: 24px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #82828e;
+}
